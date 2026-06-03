@@ -35,6 +35,7 @@ window.addEventListener('load', () => {
         "index.html": "static/mp3/kamiina.mp3",
         "2.html": "static/mp3/Lamp - For Lovers.mp3",
         "3.html": "static/mp3/Kendrick Lamar - N95.mp3",
+        "4.html": "static/mp3/Joji & BENEE - Afterthought.mp3",
     };
 
     const page = window.location.pathname.split("/").pop() || "index.html";
@@ -60,13 +61,11 @@ window.addEventListener('load', () => {
         }
     });
 
-    // Keep buttons visible while focused via keyboard (accessibility)
     document.querySelectorAll(".left-transition, .right-transition").forEach(btn => {
         btn.addEventListener("focus", () => { btn.style.opacity = "1"; });
         btn.addEventListener("blur", () => { btn.style.opacity = "0"; });
     });
 
-    // Arrow keys flip between pages
     document.addEventListener("keydown", function (e) {
         if (e.key === "ArrowRight") {
             const right = document.querySelector(".right-transition");
