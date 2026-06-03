@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second</title>
+    <link rel="stylesheet" href="css/2.css"> 
+    <link rel="stylesheet" href="css/flip.css"> 
+</head>
+<body>
+    <div class="page-content">
+        <canvas id="canvas"></canvas>
+        <div class="background"></div>
+
+        <a href="index.html" class="left-transition" aria-label="Previous page">
+            <img src="static/img/left.png" alt="">
+        </a>
+
+        <div class="blur-container">
+            <h1 style="margin-bottom: 5%;">Hi</h1>
+            <p style="margin-top: -4%;">I'm stupid</p>
+
+            <div class="link-container"></div>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0gwS2D9sukMLXNvleEnYr2?utm_source=generator" 
+                width="100%" height="352" frameBorder="0" 
+                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+
+            <a class="background-link" href="https://www.pixiv.net/en/artworks/82480775" target="_blank">Art</a>
+        </div>
+        <audio id="background-music" autoplay></audio>
+    </div>
+
+    <a href="3.html" class="right-transition" aria-label="Next page">
+        <img src="static/img/right.png" alt="">
+    </a>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="shooting_stars.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
