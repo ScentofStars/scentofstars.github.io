@@ -1,0 +1,102 @@
+.blur-container {
+    position: absolute;
+    bottom: 1%;
+    right: 0.1%;
+    width: 15%;
+    height: 17%;
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    opacity: 0.15;
+    transition: opacity 0.3s ease-in-out;
+    cursor: grab;
+    user-select: none;
+    overflow: hidden;
+}
+
+.blur-container:hover {
+    opacity: 1;
+}
+
+.blur-container.dragging {
+    cursor: grabbing;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.blur-container h3 {
+    margin: 0;
+    margin-bottom: 5%;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.blur-container p {
+    margin-top: -4%;
+}
+
+.blur-container .background-link {
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.link-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.link-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.link-wrapper img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.link-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .blur-container {
+        border-radius: 20px;
+        padding: 15px;
+        width: 40%;
+    }
+
+    .link-wrapper img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blur-container {
+        border-radius: 15px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .link-wrapper img {
+        width: 25px;
+        height: 25px;
+    }
+}
