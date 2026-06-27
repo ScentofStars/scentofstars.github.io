@@ -1,0 +1,32 @@
+[
+  {
+    "artist_name": "A L E X",
+    "album_name": "Growing Up, Vol. 1",
+    "img": "https://www.youtube.com/watch?v=daWgSX6X-kY"
+  },
+  {
+    "artist_name": "Joji",
+    "album_name": "Nectar",
+    "img": "https://i.scdn.co/image/ab67616d0000b2738da6404284573219a9b1e2f4"
+  },
+  {
+    "artist_name": "Quadeca",
+    "album_name": "From Me To You",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg"
+  },
+  {
+    "artist_name": "Hitohira",
+    "album_name": "En",
+    "img": "https://i.scdn.co/image/ab67616d0000b273191fe3f3a59b06a464748641"
+  },
+  {
+    "artist_name": "Ichiko Aoba",
+    "album_name": "0",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDxJ1ZcUxN49qT8NDgTsXN_0Uby9-ofrssa2kmxzGMPKmwJ6ZSAdjyBev&s=10"
+  },
+  {
+    "artist_name": "sidenerds",
+    "album_name": "Imitation Diamond",
+    "img": "https://i.scdn.co/image/ab67616d0000b27394633b1c2d770e56f62b8fec"
+  }
+]
