@@ -1,5 +1,3 @@
-// Social links rendered in one place and injected into every page.
-// Add/remove/reorder here and all pages update.
 const socials = [
     {
         href: "https://soundcloud.com/shiirou2412",
